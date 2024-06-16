@@ -15,21 +15,88 @@
      <title>Coffeeland Shop</title>
   </head>
   <body>
-    <ul id="nav">
-      <li class="item1"><a href="">Item 1</a></li>
-      <li class="item2"><a href="">Item 2</a></li>
-      <li class="item3"><a href="">Item 3</a></li>
-      <li class="item4"><a href="">Item 4</a></li>
-    </ul>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+          src="./images/logo_coffeeshop_dark.svg"
+          alt="coffeeshop logo"
+          class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a href="#recipes" class="nav__link">Recipes</a></li>
+            <li><a href="" class="nav__link">Book a table</a></li>
+            <li><a href="" class="nav__link">Menu</a></li>
+            <li><a href="" class="nav__link">Contacts</a></li>
+          </ul>
+        </nav>
+        <h1 class="header__title">
+          <span class="header__span-accent">Specialty coffee</span> in the Triple Peaks Library</h1>
+        <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</p>
+        <img
+         src="./images/inside_coffee_shop.png"
+         alt="inside coffeeshop"
+         class="header_image"
+         />
+        <div class="header__footer">
+          <div>
+          <p class="header__paragraph">Hours</p>
+          <p class="header__paragraph">Monday Friday (10:00 19:00)</p>
+          <p class="header__paragraph">Saturday Sunday (11:00 18:00)</p>
+        </div>
+          <p class="header__paragraph"><span> 200 Success Avenue, The Town of Triple Peaks</span></p>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
+        <section id="recipes" class="recipes">
+          <h2 class="recipes__title">Recipes</h2>
+          <p class="recipes__subtitle">
+            Check out some recipes we've collected for your home-brewing
+            convinience:
+          </p>
+          <div>
+          <div class="recipes__videos">
+            <div>
+             <iframe
+             src="https://www.youtube.com/embed/j6VlT_jUVPc?si=wOVl6h0mb5M8yGZu" title="YouTube video player"
+             frameborder="0"
+             class="recipes__iframe"></iframe>
+             <p class="recipes__video-caption"><span>Aeropress recipe</span><span> -5min</span></p>
+            </div>
+            <div>
+             <iframe
+             src="https://www.youtube.com/embed/st571DYYTR8?si=88MaabWt-sV7iGGP"
+             title="YouTube video player" frameborder="0"
+             class="recipes__iframe"></iframe>
+             <p class="recipes__video-caption"><span>French press recipe</span> -15min</p>
+            </div>
+          </div>
+        </section>
         <section class="reservsation"></section>
         <section class="menu"></section>
         <section class="about"></section>
       </main>
       <footer class="footer"></footer>
+           <!-- <section id="reservation" class="reservation">
+          <h2 class="reservation__title">Book a Table</h2>
+          Add content for booking a table -->
+        <!-- </section> -->
+        <!-- <section id="menu" class="menu">
+          <h2 class="menu__title">Menu</h2> -->
+          <!-- Add content for the menu -->
+        <!-- </section> -->
+        <!-- <section id="contacts" class="contacts"> -->
+          <!-- <h2 class="contacts__title">Contacts</h2> -->
+          <!-- Add content for contacts -->
+        <!-- </section> -->
+      </main>
+      <!-- <footer class="footer">
+       Add footer content -->
+     </footer>
+   </div>
+ </body>
+</html>
+
     </div>
   </body>
 </html>
