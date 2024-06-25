@@ -74,11 +74,11 @@
               </label>
               <label for="number-of-guests" class="form__label">
                 Number of guests *
-            <input type="number" id="number-of-guests" class="form__input" placeholder="  1-8">
+                <input type="number" id="number-of-guests" class="form__input" placeholder="1-8" required>
               </label>
               <label for="datetime" class="form__label">
                 Date & time *
-                <input type="datetime-local" id="datetime" class="form__input" >
+                <input type="datetime-local" id="datetime" class="form__input" required >
               </label>
               <label for="email" class="form__label">
                 Your email *
@@ -164,15 +164,14 @@
           <h1 class="about__title">About the
             coffee shop</h1>
           <div class="about__content">
-            <p class="about__paragraph">
-              <p> Our coffee shop is located in the Triple Peaks Library. It features 6
+            <p class="about__paragraph"></p> Our coffee shop is located in the Triple Peaks Library. It features 6
               tables and free WiFi.<p>
-              <p>Our main mission is keeping guests cozy and energized.</p>
-              Besides that, we try to reduce our environmental impact — so we
+            <p class="about__paragraph"></p>Our main mission is keeping guests cozy and energized.</p>
+            <p class="about__paragraph"> Besides that, we try to reduce our environmental impact so we
               don't sell single-use cups. But you can buy one of our reusable cups!</p>
           </div>
           <div class="about__circle"></div>
-          <div class="about__circle_animation_blurred"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
       <footer class="footer">
@@ -186,13 +185,13 @@
                 <h3 class="footer__social-heading">Social Media</h3>
                 <ul class="footer__social-links">
                     <li class="footer__social-link">
-                        <a href="#" class="footer__social-link_facebook">
+                        <a href="#" class="footer__social-link">
                             <img src="./images/facebook_white.svg" alt="Facebook" class="footer__social-icon">
                             Facebook
                         </a>
                     </li>
                     <li class="footer__social-link">
-                        <a href="#" class="footer__social-link_instagram">
+                        <a href="#" class="footer__social-link">
                             <img src="./images/instagram_white.svg" alt="Instagram" class="footer__social-icon">
                             Instagram
                         </a>
@@ -202,6 +201,7 @@
         </div>
         <div class="footer__copyright">
             <p class="footer__copyright_content">&COPY; 2024 Created by Eric Ortiz Baez</p>
+        </div>
     </div>
     </footer>
   </body>

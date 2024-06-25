@@ -11,7 +11,7 @@
   margin-top: 100px;
   margin-left: 80px;
   max-width: 251px;
-  font-family: "Inter";
+  font-family:'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -28,6 +28,7 @@
   font-size: 20px;
   line-height: 30px;
 }
+
 .about__circle {
   width: 426px;
   height: 426px;
@@ -40,6 +41,7 @@
 }
 
 .about__circle_animation_blurred {
+  filter: blur(5px);
   width: 446px;
   height: 446px;
   background-color: darkblue;
@@ -64,7 +66,11 @@
   }
 }
 
-.about__paragraph {
+.about__paragraph:not(:last-of-type){
   max-width: 660px;
-  margin: 20px 0;
+  margin-bottom: 20px;
+}
+
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
 }

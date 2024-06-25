@@ -22,7 +22,7 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
-  font-family: Inter;
+  font-family:'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -52,7 +52,7 @@
   color: #838383;
 }
 
-input.form__input {
+.form__input{
   color: black;
 }
 
@@ -69,10 +69,9 @@ input.form__input {
   line-height: 20px;
   background-color: #2f80ed;
   color: white;
-  width: 50%;
   transition: width 0.5s ease-in-out;
 }
 
 .form__button:hover {
-  width: 70%;
+  opacity: 70%;
 }

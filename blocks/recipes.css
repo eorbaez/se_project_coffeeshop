@@ -1,7 +1,7 @@
 .recipes {
   padding: 100px 80px 215px;
-  background: #0a2750;
   color: white;
+  background: #0a2750 url(../images/background_recipes.svg) center;
 }
 
 .recipes__title {
@@ -29,13 +29,17 @@
 
 .recipes__iframe {
   border-style: none;
+  display: block;
+  width: 480px;
+  height: 273px;
 }
 
 .recipes__video-caption {
-  font-family: 'Inter';
+  margin-top: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
   display: flex;
   justify-content: space-between;
+  font-family: 'Inter', Arial, sans-serif;
 }
