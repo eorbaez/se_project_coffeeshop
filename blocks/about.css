@@ -25,7 +25,7 @@
 .about__content {
   color: white;
   padding: 119px 80px 173px;
-  font-family: "Noto Serif";
+  font-family: 'Noto Serif', Times New Roman, generic serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -44,10 +44,7 @@
 }
 
 .about__circle_animation_blurred {
-  filter: blur(5px);
-  background-color: rgba(70, 74, 181, 0.97);
-  border-radius: 56%;
-  position: absolute;
+  border-radius: 50%;
   z-index: auto;
   animation: pulsate 1.3s ease-in-out infinite;
 }

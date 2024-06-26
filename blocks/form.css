@@ -12,7 +12,7 @@
 .form__label {
   margin-bottom: 32px;
   display: block;
-  font-family: Inter;
+  font-family: 'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -46,7 +46,7 @@
   box-sizing: border-box;
   margin-top: 8px;
   height: 60px;
-  font-family: Inter;
+  font-family:'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
