@@ -35,6 +35,7 @@
 }
 
 .recipes__video-caption {
+  margin-bottom: auto;
   margin-top: 24px;
   font-weight: 500;
   font-size: 20px;

@@ -7,6 +7,7 @@
   z-index: 0;
   background: #fff url(../images/background_header.svg)no-repeat;
   box-sizing: border-box;
+  background-size: cover;
 }
 
 
@@ -30,7 +31,7 @@
 .header__span-accent {
   display: block;
   font-style: italic;
-  font-family: 'Noto Serif';
+  font-family: 'Noto Serif', Times New Roman, generic serif;
   color: #2f80ed;
 }
 
@@ -43,6 +44,7 @@
 }
 
 .header__footer {
+  align-items: end;
   font-family: 'Inter', Arial, sans-serif;
   display: flex;
   justify-content: space-between;

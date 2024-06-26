@@ -70,7 +70,7 @@
             <fieldset class="form__fieldset">
               <label for="name" class="form__label">
                 Name *
-                <input type="text" id="name" class="form__input" placeholder="  Name Surname">
+                <input type="text" id="name" class="form__input" placeholder="Name Surname" required>
               </label>
               <label for="number-of-guests" class="form__label">
                 Number of guests *
@@ -82,12 +82,12 @@
               </label>
               <label for="email" class="form__label">
                 Your email *
-                <input type="email" id="email" class="form__input" placeholder="  email@email.com">
+                <input type="email" id="email" class="form__input" placeholder="email@email.com" required>
               </label>
             </fieldset>
             <button class="form__button">Book a Table</button>
             <label for="checkbox" class="form__label form__label_type_checkbox">
-              <input type="checkbox" id="checkbox" class="form__checkbox">
+              <input type="checkbox" id="checkbox" class="form__checkbox" required>
               I agree with term of use
             </label>
           </form>
@@ -164,9 +164,10 @@
           <h1 class="about__title">About the
             coffee shop</h1>
           <div class="about__content">
-            <p class="about__paragraph"></p> Our coffee shop is located in the Triple Peaks Library. It features 6
-              tables and free WiFi.<p>
-            <p class="about__paragraph"></p>Our main mission is keeping guests cozy and energized.</p>
+            <p class="about__paragraph">Our coffee shop is located in the Triple Peaks Library. It features 6
+              tables and free WiFi.</p>
+
+            <p class="about__paragraph">Our main mission is keeping guests cozy and energized.</p>
             <p class="about__paragraph"> Besides that, we try to reduce our environmental impact so we
               don't sell single-use cups. But you can buy one of our reusable cups!</p>
           </div>
@@ -184,13 +185,13 @@
             <div class="footer__social">
                 <h3 class="footer__social-heading">Social Media</h3>
                 <ul class="footer__social-links">
-                    <li class="footer__social-link">
+                    <li class="footer__social-list-item">
                         <a href="#" class="footer__social-link">
                             <img src="./images/facebook_white.svg" alt="Facebook" class="footer__social-icon">
                             Facebook
                         </a>
                     </li>
-                    <li class="footer__social-link">
+                    <li class="footer__social-list-item">
                         <a href="#" class="footer__social-link">
                             <img src="./images/instagram_white.svg" alt="Instagram" class="footer__social-icon">
                             Instagram
@@ -202,7 +203,7 @@
         <div class="footer__copyright">
             <p class="footer__copyright_content">&COPY; 2024 Created by Eric Ortiz Baez</p>
         </div>
+      </footer>
     </div>
-    </footer>
   </body>
 </html>

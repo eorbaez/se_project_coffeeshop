@@ -1,4 +1,5 @@
 
+
 .about {
   display: flex;
   background-color: #0A2850;
@@ -42,13 +43,9 @@
 
 .about__circle_animation_blurred {
   filter: blur(5px);
-  width: 446px;
-  height: 446px;
-  background-color: darkblue;
+  background-color: rgba(70, 74, 181, 0.97);
   border-radius: 56%;
   position: absolute;
-  margin-left: -129px;
-  margin-top: -152px;
   z-index: auto;
   animation: pulsate 1.3s ease-in-out infinite;
 }
@@ -66,9 +63,10 @@
   }
 }
 
-.about__paragraph:not(:last-of-type){
+.about__paragraph{
   max-width: 660px;
   margin-bottom: 20px;
+  margin-top: 0;
 }
 
 .about__paragraph:last-of-type {

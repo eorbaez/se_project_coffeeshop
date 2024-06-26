@@ -35,12 +35,14 @@
   padding: 0;
   margin-right: 12px;
   width: 20px;
+  border-radius: 2px;
 }
 
 .form__input {
+  padding-left: 20px;
+  padding-right: 20px;
   display: block;
   width: 100%;
-  padding: 0;
   box-sizing: border-box;
   margin-top: 8px;
   height: 60px;
@@ -50,6 +52,7 @@
   font-size: 20px;
   line-height: 30px;
   color: #838383;
+  border-radius: 4px;
 }
 
 .form__input{
@@ -62,7 +65,7 @@
   padding: 0;
   border: none;
   margin-bottom: 32px;
-  font-family: Inter;
+  font-family:'Inter', Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -70,6 +73,7 @@
   background-color: #2f80ed;
   color: white;
   transition: width 0.5s ease-in-out;
+  border-radius: 4px;
 }
 
 .form__button:hover {

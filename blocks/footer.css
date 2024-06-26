@@ -12,6 +12,7 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
+
 }
 
 .footer__logo-img {
@@ -34,13 +35,17 @@
 
 .footer_social-icon {
   height: 16px;
-  margin-right: 10px;
+}
+
+.footer__social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .footer__social-link {
   display: flex;
   align-items: center;
-  list-style: none;
   color: white;
   text-decoration-line: none;
   font-family: 'Inter', Arial, sans-serif;
@@ -48,6 +53,8 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 20px;
+  margin-bottom: 16px;
+  gap: 10px;
 }
 
 .footer__social-links:hover {
