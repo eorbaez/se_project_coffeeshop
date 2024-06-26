@@ -4,6 +4,8 @@
   display: flex;
   background-color: #0A2850;
   justify-content: space-between;
+  position: relative;
+  overflow: hidden;
 }
 
 .about__title {
