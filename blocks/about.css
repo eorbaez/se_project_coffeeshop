@@ -44,7 +44,6 @@
 }
 
 .about__circle_animation_blurred {
-  border-radius: 50%;
   z-index: auto;
   animation: pulsate 1.3s ease-in-out infinite;
 }
